@@ -1,0 +1,9 @@
+columns:
+  - filesystem
+  - size
+  - used
+  - avail
+  - mountpoint
+colors: true
+show_percentage: true
+

@@ -1,0 +1,6 @@
+colors: true          # enable colors
+icons: true           # show icons
+group_dirs_first: true
+date: iso             # ISO date format
+total_size: true      # show total size of directory
+time_style: iso       # ISO timestamps
