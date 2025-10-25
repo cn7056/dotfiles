@@ -1,0 +1,20 @@
+# Enable completion
+autoload -Uz compinit
+compinit
+
+# History settings
+HISTFILE=~/.zsh_history
+HISTSIZE=5000
+SAVEHIST=5000
+setopt append_history share_history
+
+# Command corrections and navigation
+setopt auto_cd
+setopt pushd_ignore_dups pushd_silent
+
+# Default colors for tools
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+export GREP_OPTIONS='--color=auto'
+export GREP_COLOR='1;32'
+
