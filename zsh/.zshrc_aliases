@@ -1,0 +1,22 @@
+# -------------------------------
+# Aliases for modern Unix tools
+# alias ls='lsd -l'                   # replace ls with lsd
+# alias ll='lsd -lh'               # long list
+# alias la='lsd -A'                # show hidden files
+# alias l='lsd -CF'                # compact list
+eval "$(dircolors ~/.config/dircolors)"
+alias ls='ls -1a --color=auto'
+alias ll='ls -lh --color=auto'
+alias la='ls -A --color=auto'
+
+
+alias du='dust'                   # replace du with dust
+alias df='duf'                    # replace df with duf
+alias f='fd'                      # shortcut for fd
+alias rg='rg --color=always'      # ripgrep with color
+alias grep='rg'                   # optional: use rg as grep
+
+alias gst='git status'
+alias gd='git diff'
+alias ..='cd ..'
+
