@@ -1,0 +1,5 @@
+# Don't sync shell history across machines
+.zsh_history
+
+# README for the repo (keep in repo only)
+README.md
