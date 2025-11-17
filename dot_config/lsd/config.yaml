@@ -1,4 +1,4 @@
-colors: true          # enable colors
+color: true          # enable colors
 icons: true           # show icons
 group_dirs_first: true
 date: iso             # ISO date format

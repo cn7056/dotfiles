@@ -1,14 +1,22 @@
 # ~/.zshrc
 # -------------------------------
 # Load core settings
-source ~/.zshrc_core
+if [ -f ~/.zshrc_core ]; then
+    source ~/.zshrc_core
+fi
 
 # Load aliases and tool replacements
-source ~/.zshrc_aliases
+if [ -f ~/.zshrc_aliases ]; then
+    source ~/.zshrc_aliases
+fi
 
 # Load prompt
-source ~/.zshrc_prompt
+if [ -f ~/.zshrc_prompt ]; then
+    source ~/.zshrc_prompt
+fi
 
 # Load productivity enhancements
-source ~/.zshrc_prod
+if [ -f ~/.zshrc_prod ]; then
+    source ~/.zshrc_prod
+fi
 

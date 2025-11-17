@@ -1,0 +1,14 @@
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+
+# Added by Toolbox App
+export PATH="$PATH:/Users/chrisnathan/Library/Application Support/JetBrains/Toolbox/scripts"
+
+
+# >>> coursier install directory >>>
+export PATH="$PATH:/Users/chrisnathan/Library/Application Support/Coursier/bin"
+# <<< coursier install directory <<<
+
+# Add local bin to PATH
+export PATH="$PATH:$HOME/.local/bin"
